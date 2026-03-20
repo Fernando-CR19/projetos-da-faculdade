@@ -1,0 +1,132 @@
+body {
+    background-color: #0d204a60;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    background-color: #0D204A;
+    color: white;
+}
+
+.header img {
+    width: 5%;
+    margin-left: 5px;
+}
+
+.header h1 {
+    margin-left: 5px;
+}
+
+.mainInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnVoltar {
+    width: 15%;
+    height: 15%;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #00318d;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    margin-left: 70%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+hr {
+    border-color: #0D204A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.container .userInfos {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .userInfos .user .userPhoto {
+    width: 100%;
+}
+
+.container .userInfos .info {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.container .userInfos .info .infoName, .infoCPF, .infoEmail, .infoTel{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.container .userInfos .info .value {
+    padding: 7px;
+    background-color: #00318d;
+    border-radius: 7px;
+    margin-left: 7px;
+    color: white;
+}
+
+.table{
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.301);
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 95%;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    padding: 7px;
+    border-bottom: none;
+}
+
+.returnData, .returnDataOutstandBook {
+    text-align: center;
+}
+
+.none {
+    color: transparent;
+}
+
+.btn {
+    display: flex;
+    width: 72.7%;
+    justify-content: end;
+}
+
+.btn .btnAtt {
+    width: 15%;
+    height: 15%;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #0D204A;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    margin-right: 6.5%;
+}

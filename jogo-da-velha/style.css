@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    background: url(/background/Black\ Hole.gif);
+    font-family: 'Orbitron', sans-serif;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #001B32, #FFFFEB, #333333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jogo {
+    display: flex;
+    justify-content: center;
+    min-width: 350px;
+}
+
+.tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 312px;
+}
+
+.espaco {
+    border: 3.5px solid black;
+    margin: 2px;
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.espaco:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.mensagemReset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winner {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    height: 55px;
+    background-image: linear-gradient(to bottom, #172A24, #01320B, #05BD68);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pontuacao {
+    width: 300px;
+    height: 65px;
+    border: 3.5px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 7px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+#btnRestart {
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    background-color: transparent;
+    border: 3.5px solid black;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+#btnRestart:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3.5px solid white;
+    transition: 0.3s;
+}
+
+#linha {
+    width: 350px;
+    height: 10px;
+    background-color: red;
+    margin-left: calc(50% - 175px);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

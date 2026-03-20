@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FrontEnd",
+    "slug": "FrontEnd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/heart-pulse.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "FrontEnd",
+    "splash": {
+      "image": "./assets/heart-pulse.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/heart-pulse.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}

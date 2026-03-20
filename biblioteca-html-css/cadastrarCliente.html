@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Cliente</title>
+    <link rel="stylesheet" href="./css/cadastrarClientes.css">
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./imgs/logo.png" alt="logo">
+        <h1>BookVault</h1>
+        <button class="btnVoltar">Voltar</button>
+    </header>
+    <div class="container">
+        <form class="form">
+            <fieldset class="fieldset">
+                <h1>Cadastrar Cliente</h1>
+                <img src="./imgs/user.png" class="user" alt="usuário">
+                <div class="registerContainer">
+                    <label class="label nome">Nome:</label>
+                    <input class="input inputNome" type="text">
+                    <label class="label cpf">CPF:</label>
+                    <input class="input inputCPF" type="text">
+                    <label class="label email">E-mail:</label>
+                    <input class="input inputEmail" type="email">
+                    <label class="label endereco">Endereço:</label>
+                    <input class="input inputEndereco" type="text">
+                    <label class="label plano">Plano:</label>
+                    <div class="planoContainer">
+                        <select class="plano">
+                            <option value="0">Selecione o plano:</option>
+                            <option value="1">Básico</option>
+                            <option value="2">Avançado</option>
+                            <option value="3">Premium</option>
+                        </select>
+                    </div>
+                    <button class="btn">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

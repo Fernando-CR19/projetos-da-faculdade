@@ -1,0 +1,126 @@
+/* -------------- Reset -------------- */
+
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(253, 97, 83);
+    background: linear-gradient(164deg, rgba(253, 97, 83, 1) 0%, rgba(255, 178, 84, 1) 70%);
+    min-height: 100vh;
+}
+
+/* -------------- Começo do Header -------------- */
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #FF5000;
+}
+
+.headerContainer .headerLogo a img {
+    width: 10%;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.headerContainer .nav {
+    width: 50%;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.headerContainer .nav .navUl {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.headerContainer .nav .navUl a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerContainer .nav .navUl .navLi {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* -------------- Fim do Header -------------- */
+/* -------------- Começo da Section -------------- */
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.mainContainer h1 {
+    font-family: sans-serif;
+    margin-bottom: 1%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.carContainer {
+    border: 1px solid black;
+    width: 45%;
+    border-radius: 7px;
+    margin-bottom: 2%;
+}
+
+.carContainer .classCar {
+    color: white;
+    background-color: #FF5000;
+    padding: 1%;
+    font-family: sans-serif;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.carContainer .car {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carContainer .car img {
+    width: 35%;
+    border-radius: 7px;
+}
+
+.carContainer .car .pay {
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 16%;
+    height: 55px;
+    padding: 1%;
+    align-self: center;
+    margin-right: 15%;
+    background-color: #FF5000;
+    color: white;
+}
+
+.carContainer .car .pay p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.carContainer .car .pay a {
+    text-decoration: none;
+    width: 30%;
+    padding: 5%;
+    background-color: #cc4100;
+    border-radius: 7px;
+    color: white;
+}
+
+/* -------------- Fim da Section -------------- */

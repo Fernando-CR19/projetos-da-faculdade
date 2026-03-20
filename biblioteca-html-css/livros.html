@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <link rel="stylesheet" href="./css/livros.css">
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./imgs/logo.png" alt="logo">
+        <h1>BookVault</h1>
+        <button class="btnVoltar">Voltar</button>
+    </header>
+    <div class="searchInfo">
+        <input type="text" placeholder="Nome do livro" class="search">
+        <select class="search">
+            <option value="0">Gênero do livro</option>
+            <option value="1">Ação</option>
+            <option value="2">Aventura</option>
+            <option value="3">Fantasia</option>
+            <option value="4">Comédia</option>
+            <option value="5">Romance</option>
+            <option value="6">Português</option>
+            <option value="7">Física</option>
+            <option value="8">Matemática</option>
+            <option value="9">História</option>
+            <option value="10">Geografia</option>
+            <option value="11">Biologia</option>
+            <option value="12">Química</option>
+        </select>
+        <select class="search">
+            <option value="0">Preço</option>
+            <option value="1">R$ 10 - R$ 20</option>
+            <option value="2">R$ 21 - R$ 30</option>
+            <option value="3">R$ 31 - R$ 40</option>
+        </select>
+    </div>
+    <div class="tableContainer">
+        <table class="table">
+            <tr class="linhas">
+                <th class="titulo">Nome</th>
+                <th class="titulo">Código</th>
+                <th class="titulo">Preço</th>
+                <th class="titulo">Estoque</th>
+                <th class="titulo">Código de chamada</th>
+            </tr>
+            <tr class="linhas">
+                <td class="values">Percy Jackson e o Ladrão de raios</td>
+                <td class="values">FEUWIL</td>
+                <td class="values">R$ 29,00</td>
+                <td class="values">10</td>
+                <td class="values">801.2 F273l</td>
+            </tr>
+            <tr class="linhas">
+                <td class="values">Harry Potter e a pedra filosofal</td>
+                <td class="values">HP1PPF</td>
+                <td class="values">R$ 46,68</td>
+                <td class="values">15</td>
+                <td class="values">801.2 F273l 9.ed.</td>
+            </tr>
+            <tr class="linhas">
+                <td class="values">Sherlock Holmes - Um estudo em vermelho</td>
+                <td class="values">VFSBHA</td>
+                <td class="values">R$ 47,92</td>
+                <td class="values">30</td>
+                <td class="values">808.899282</td>
+            </tr>
+            <tr class="linhas">
+                <td class="values">Frankenstein</td>
+                <td class="values">FDIHJB</td>
+                <td class="values">R$ 47,40</td>
+                <td class="values">35</td>
+                <td class="values">131.3 M954t</td>
+            </tr>
+            <tr class="linhas">
+                <td class="values">Drácula</td>
+                <td class="values">ASIJBM</td>
+                <td class="values">R$ 14,95</td>
+                <td class="values">32</td>
+                <td class="values">025.81 S237n</td>
+            </tr>
+            <tr class="linhas">
+                <td class="values">As crônicas de Nárnia</td>
+                <td class="values">NIJBAO</td>
+                <td class="values">R$ 65,44</td>
+                <td class="values">20</td>
+                <td class="values">869.8 A553b</td>
+            </tr>
+            <tr class="linhas">
+                <td class="values">Six of Crows</td>
+                <td class="values">AESUOA</td>
+                <td class="values">R$ 53,43</td>
+                <td class="values">5</td>
+                <td class="values">004.678 F893</td>
+            </tr>
+            <tr>
+                <td class="values">Programação JavaScript</td>
+                <td class="values">ASDUIS</td>
+                <td class="values">R$ 197,87</td>
+                <td class="values">15</td>
+                <td class="values">829.927 J265</td>
+            </tr>
+            <tr>
+                <td class="values">Um Café com Sêneca</td>
+                <td class="values">ASDNOJ</td>
+                <td class="values">R$ 44,92</td>
+                <td class="values">20</td>
+                <td class="values">649.351 jh.795</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

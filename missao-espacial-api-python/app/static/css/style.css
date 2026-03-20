@@ -1,0 +1,239 @@
+/*---------INICIO CSS MAIN---------*/
+
+body {
+    background-color: #F7EFFA;
+    font-family: sans-serif;
+}
+
+.container {
+    width: max-content;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 2%;
+}
+
+.containerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5D2795;
+}
+
+.hidden {
+    display: none;
+}
+
+#formContainer {
+    width: 25%;
+    margin: auto;
+    background-color: #F7EFFA;
+    border-radius: 7px;
+    color: #5D2795;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+#formContainer .h2 {
+    text-align: center;
+}
+
+.form .fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    color: #5D2795;
+}
+
+.form .fieldset label {
+    font-weight: bold;
+    font-size: large;
+}
+
+.form .fieldset input {
+    margin-bottom: 2%;
+    outline: none;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.form .fieldset .enviar {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding: 3%;
+    background-color: #8922ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container .btnAdd {
+    width: max-content;
+    height: max-content;
+    padding: 1%;
+    background-color: #8922ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container .containerTable .table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tableTitle {
+    background-color: #E2C9F6;
+}
+
+.tableRow,
+.tableRow,
+.tableTitle,
+.tableContent {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    color: transparent;
+}
+
+.btnAlt,
+.btnDel {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding: 5px;
+    background-color: #8922ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/*---------FIM CSS MAIN---------*/
+
+
+/*---------INICIO CSS DELETE---------*/
+#deleteFormContainer {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: #F7EFFA;
+    border-radius: 7px;
+    color: #5D2795;
+    padding: 2%;
+}
+
+#deleteFormContainer .h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+#deleteFormContainer .deleteFieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    color: #5D2795;
+}
+
+#deleteFormContainer .deleteFieldset label {
+    font-weight: bold;
+    font-size: large;
+}
+
+#deleteFormContainer .deleteFieldset input {
+    margin-bottom: 2%;
+    outline: none;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#deleteFormContainer .deleteFieldset #delete {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding: 3%;
+    background-color: #8922ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#delete {
+    width: max-content;
+    height: max-content;
+    padding: 1%;
+    background-color: #8922ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+/*---------FIM CSS DELETE---------*/
+
+
+/*---------INICIO CSS ALTERAR---------*/
+#altFormContainer {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: #F7EFFA;
+    border-radius: 7px;
+    color: #5D2795;
+    padding: 2%;
+}
+
+#altFormContainer .h4 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#altFormContainer .altFieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    color: #5D2795;
+}
+
+#altFormContainer .altFieldset label {
+    font-weight: bold;
+    font-size: large;
+}
+
+#altFormContainer .altFieldset input {
+    margin-bottom: 2%;
+    outline: none;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#alter {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding: 3%;
+    background-color: #8922ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+/*---------FIM CSS ALTERAR---------*/

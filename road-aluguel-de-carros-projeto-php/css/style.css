@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(253, 97, 83);
+    background: linear-gradient(164deg, rgba(253, 97, 83, 1) 0%, rgba(255, 178, 84, 1) 70%);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* ------------- Começo do header ------------- */
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #FF5000;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.headerContainer .headerLogo a img {
+    width: 10%;
+}
+
+.headerContainer .btnVoltar a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+}
+
+/* ------------- Fim do header ------------- */
+
+/* ------------- Começo do Form ------------- */
+
+.formContainer {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.formContainer .h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    
+}
+
+.formContainer .form .fieldset{
+    border: none;
+
+}
+
+.formContainer .form .fieldset label {
+    color: white;
+}
+
+.formContainer .form .fieldset input {
+    width: 97%;
+    padding: 1%;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.formContainer .form .fieldset .btnLogin {
+    width: 99%;
+    padding: 1.5%;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF5000;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* ------------- Fim do Form ------------- */
+
+.btnCadastro {
+    width: 95%;
+    padding: 1.5%;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF5000;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 2%;
+}

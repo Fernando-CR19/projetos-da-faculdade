@@ -1,0 +1,109 @@
+/* -------------- Reset -------------- */
+
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(253, 97, 83);
+    background: linear-gradient(164deg, rgba(253, 97, 83, 1) 0%, rgba(255, 178, 84, 1) 70%);
+    min-height: 100vh;
+}
+
+/* -------------- Começo do Header -------------- */
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #FF5000;
+}
+
+.headerContainer .headerLogo a img {
+    width: 10%;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.headerContainer .nav {
+    width: 50%;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.headerContainer .nav .navUl {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.headerContainer .nav .navUl a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerContainer .nav .navUl .navLi {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* -------------- Fim do Header -------------- */
+/* -------------- Início da Section -------------- */
+
+.form {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.form .form-content {
+    padding-right: 4%;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.form .form-content label {
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.form .form-content input {
+    width: 98%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: none;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.form .form-content #diaRetirada {
+    width: 98.5%;
+}
+
+.form .form-content #diaDevolucao {
+    width: 98.5%;
+}
+
+.form .form-content .renting {
+    width: 101%;
+    padding: 1%;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #FF5000;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* -------------- Fim da Section -------------- */

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    font-family: "Oxygen", sans-serif
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    background-color: #0D204A;
+    color: white;
+}
+
+.header img {
+    width: 5%;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-left: 5px;
+}
+
+.header .btnVoltar {
+    width: 10%;
+    height: 15%;
+    margin-left: 70%;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #00318d;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    font-family: "Oxygen", sans-serif
+}
+
+.container {
+    width: 100%;
+    height: 89.9vh;
+    background-color: #0d204a60;
+}
+
+.container .form {
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+}
+
+.container .form .fieldset {
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    border: 2px solid black;
+    background-color: #0d204a1c;
+}
+
+.container .form .fieldset .registerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+
+.container .form .fieldset h1 {
+    text-align: center;
+    color: white;
+}
+
+.container .form .fieldset .user {
+    width: 20%;
+    margin-left: 40.5%;
+    margin-top: 15px;
+}
+
+.container .form .fieldset .registerContainer .label {
+    margin-bottom: 3px;
+    color: white;
+}
+
+.container .form .fieldset .registerContainer .input {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.inputNome {
+    background-image: url("../imgs/name.png");
+    background-repeat: no-repeat;
+}
+
+.inputCPF {
+    background-image: url("../imgs/cpf.png");
+    background-repeat: no-repeat;
+}
+
+.inputEmail {
+    background-image: url("../imgs/email.png");
+    background-repeat: no-repeat;
+}
+
+.inputSenha {
+    background-image: url("../imgs/eye.png");
+    background-repeat: no-repeat;
+}
+
+.inputEndereco {
+    background-image: url("../imgs/endereco.svg");
+    background-repeat: no-repeat;
+}
+
+/* CSS do select */
+
+.planoContainer {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.plano {
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Fim do css do select */
+
+.btn {
+    width: 60%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #0D204A;
+    border: 1px solid black;
+    color: white;
+    margin-left: 20%;
+    cursor: pointer;
+}

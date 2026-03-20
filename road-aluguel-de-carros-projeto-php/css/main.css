@@ -1,0 +1,228 @@
+/* -------------- Reset -------------- */
+
+* {
+    margin: 0;
+}
+
+/* -------------- Começo do Header -------------- */
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #FF5000;
+}
+
+.headerContainer .headerLogo a img {
+    width: 10%;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.headerContainer .nav {
+    width: 40%;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.headerContainer .nav .navUl {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.headerContainer .nav .navUl a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerContainer .nav .navUl .navLi {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* -------------- Fim do Header -------------- */
+/* -------------- Começo da Section -------------- */
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentFluid {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.contentFluid h2 {
+    margin-bottom: 1%;
+    font-family: sans-serif;
+}
+
+.contentFluid form {
+    display: flex;
+}
+
+.contentFluid form div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.contentFluid form div label {
+    font-family: sans-serif;
+    margin-bottom: 2%;
+}
+
+.contentFluid form div input {
+    width: 25vw;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 7px;
+    outline: 0;
+}
+
+.contentFluid form .button {
+    align-self: center;
+    padding: 1%;
+    background-color: #FF5000;
+    margin-top: 1.3%;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.contentFluid form .button .searchButton {
+    font-style: none;
+    cursor: pointer;
+    background-color: #FF5000;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+
+/* -------------- Fim da Section -------------- */
+/* -------------- Começo dos Banners -------------- */
+
+.banners {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #F4F4F4;
+    padding: 2%;
+}
+
+.banners .bannersTablet h2 {
+    margin-bottom: 10px;
+}
+
+.banners .bannersTablet h3 {
+    font-size: small;
+    color: gray;
+    margin-bottom: 2%;
+}
+
+.banners .cardContent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+
+.banners .cardContent .card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: start;
+}
+
+.banners .cardContent .card .cardImg {
+    border-radius: 7px;
+    margin-bottom: 3%;
+    min-height: 48%;
+}
+
+.banners .cardContent .card h5 {
+    font-size: medium;
+    margin-bottom: 3%;
+}
+
+.banners .cardContent .card p {
+    margin-bottom: 
+    3%;
+}
+
+.banners .cardContent .card a {
+    color: #FB5000;
+}
+
+/* -------------- Fim dos Banners -------------- */
+/* -------------- Começo das Promoções -------------- */
+
+.promotions {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 2%;
+}
+
+.promotions .promotionsList {
+    display: flex;
+    align-items: start;
+    margin-top: 2%;
+}
+
+.promotions .promotionsList img {
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 2%;
+}
+
+/* -------------- Fim das Promoções -------------- */
+/* -------------- Inicio do Footer -------------- */
+
+.footer {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    padding: 3%;
+    font-family: sans-serif;
+    font-size: large;
+    justify-content: space-around;
+}
+
+.footer h5 {
+    font-size: larger;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer .about {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .about a, p {
+    margin-bottom: 2%;
+}
+
+
+.footer .contact {
+    width: 20%;
+}
+
+/* -------------- Fim do Footer -------------- */

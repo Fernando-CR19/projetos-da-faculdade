@@ -1,0 +1,96 @@
+/* -------------- Reset -------------- */
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+/* -------------- Começo do Header -------------- */
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #FF5000;
+}
+
+.headerContainer .headerLogo a img {
+    width: 10%;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.headerContainer .nav {
+    width: 30%;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.headerContainer .nav .navUl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContainer .nav .navUl a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerContainer .nav .navUl .navLi {
+    list-style: none;
+}
+
+/* -------------- Fim do Header -------------- */
+
+/* -------------- Começo da Section -------------- */
+
+.formContainer {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    color: #58595B;
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+.formContainer .form .fieldset {
+    border: none;
+    border-radius: 7px;
+}
+
+.formContainer .form .fieldset .h3 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.formContainer .form .fieldset input {
+    width: 97.5%;
+    padding: 1%;
+    border: 1px solid black;  
+    border-radius: 7px;
+    margin-bottom: 2%;
+}
+
+.formContainer .form .fieldset .btnConsult {
+    padding: 1%;
+    border: none;
+    border-radius: 7px;
+    background-color: #FF5000;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* -------------- Fim da Section -------------- */

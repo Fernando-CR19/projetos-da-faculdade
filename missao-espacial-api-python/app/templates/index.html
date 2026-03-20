@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missões Espaciais</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="containerContent">
+            <h1>Lista de Missões</h1>
+            <button class="btnAdd" id="showFormBtn">Adicionar</button>
+        </div>
+        <div id="formContainer" class="hidden">
+            <h2 class="h2">Cadastrar Missão</h2>
+            <form class="form">
+                <fieldset class="fieldset">
+                    <label>Nome: </label>
+                    <input type="text" id="name">
+                    <label>Data de lançamento:</label>
+                    <input type="text" id="releaseData">
+                    <label>Destino:</label>
+                    <input type="text" id="endpoint">
+                    <label>Estado da missão:</label>
+                    <input type="text" id="missionState">
+                    <label>Tripulação:</label>
+                    <input type="text" id="crew">
+                    <label>Carga útil:</label>
+                    <input type="text" id="payload">
+                    <label>Duração da missão:</label>
+                    <input type="text" id="duration">
+                    <label>Custo da missão:</label>
+                    <input type="text" id="cost">
+                    <label>Status da missão</label>
+                    <input type="text" id="status">
+                    <button type="submit" class="enviar" id="meuFormulario">Adicionar Missão</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="containerTable">
+            <table class="table">
+                <tr class="tableRow">
+                    <th class="tableTitle">id</th>
+                    <th class="tableTitle">Nome da missão</th>
+                    <th class="tableTitle">Data de laçamento</th>
+                    <th class="tableTitle">Destino</th>
+                    <th class="tableTitle">Estado da missão</th>
+                    <th class="tableTitle">Tripulação</th>
+                    <th class="tableTitle">Carga útil</th>
+                    <th class="tableTitle">Duração da missão</th>
+                    <th class="tableTitle">Custo da missão</th>
+                    <th class="tableTitle">Status da missão</th>
+                    <th class="tableTitle">Ações</th>
+                </tr>
+                <tr class="tableRow">
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">.</td>
+                    <td class="tableContent">
+                        <button class="btnAlt" id="altBtn">Alterar</button>
+                        <button class="btnDel" id="deleteBtn">Excluir</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="deleteFormContainer" class="hidden">
+            <h3 class="h3">Excluir Missão</h3>
+            <form class="deleteForm">
+                <fieldset class="deleteFieldset">
+                    <label>ID:</label>
+                    <input type="text" id="id">
+                    <button type="submit" id="delete">Deletar missão</button>
+                </fieldset>
+            </form>
+        </div>
+        <div id="altFormContainer" class="hidden">
+            <h2 class="h4">Alterar Informações</h2>
+            <form class="altForm">
+                <fieldset class="altFieldset">
+                    <label>Id:</label>
+                    <input type="text" id="altId">
+                    <label>Nome: </label>
+                    <input type="text" id="altName">
+                    <label>Data de lançamento:</label>
+                    <input type="text" id="altReleaseData">
+                    <label>Destino:</label>
+                    <input type="text" id="altEndpoint">
+                    <label>Estado da missão:</label>
+                    <input type="text" id="altMissionState">
+                    <label>Tripulação:</label>
+                    <input type="text" id="altCrew">
+                    <label>Carga útil:</label>
+                    <input type="text" id="altPayload">
+                    <label>Duração da missão:</label>
+                    <input type="text" id="altDuration">
+                    <label>Custo da missão:</label>
+                    <input type="text" id="altCost">
+                    <label>Status da missão</label>
+                    <input type="text" id="altStatus">
+                    <button type="submit" id="alter">Alterar informações</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../static/js/buscar.js"></script>
+<script src="../static/js/script_button.js"></script>
+<script src="../static/js/script_endpoint.js"></script>
+
+</html>

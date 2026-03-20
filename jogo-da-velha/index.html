@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+
+    <div class="jogo">
+        <div class="tabuleiro">
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+        </div>
+    </div>
+
+    <div class="mensagemReset">
+        <p class="winner"></p>
+
+        <div class="pontuacao">
+            <p id="pontosX"></p>
+            <p id="pontosO"></p>
+        </div>
+
+        <input type="button" value="Reiniciar" id="btnRestart">
+    </div>
+
+    <div id="linha"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+    

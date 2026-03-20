@@ -1,0 +1,52 @@
+criar:
+http://127.0.0.1:5000/criar
+{
+  "name": "Apollo 11",
+  "release_date": "1969-07-18 12:20:00",
+  "endpoint": "Lua",
+  "mission_state": "Concluída",
+  "crew": "Michael Collins, Buzz Aldrin e Neil Armstrong",
+  "payload": "Bandeira dos EUA",
+  "duration": "1969-07-21 12:20:02",
+  "cost": 25000000000,
+  "status": "Apollo 11 foi um voo espacial tripulado norte-americano responsável pelo primeiro pouso na Lua"
+}
+
+atualizar:
+http://127.0.0.1:5000/atualizar
+{
+  "name": "Apollo 11",
+  "release_date": "1957-10-04 12:00:00",
+  "endpoint": "Espaço",
+  "mission_state": "Concluída",
+  "crew": "",
+  "payload": "",
+  "duration": "1957-10-14 12:00:02",
+  "cost": 20000000,
+  "status": "O Sputnik 1 foi o primeiro satélite artificial da Terra. Foi lançado pela União Soviética em 4 de outubro de 1957"
+}
+
+{
+  id: "2",
+  "name": "Sputnik",
+  "release_date": "1957-10-04 12:00:00",
+  "endpoint": "Espaço",
+  "mission_state": "Concluída",
+  "crew": "",
+  "payload": "",
+  "duration": "1957-10-14 12:00:02",
+  "cost": 20000000,
+  "status": "O Sputnik 1 foi o primeiro satélite artificial da Terra. Foi lançado pela União Soviética em 4 de outubro de 1957"
+}
+
+deletar:
+http://127.0.0.1:5000/deletar
+{
+  "id": 2
+}
+
+buscar:
+http://127.0.0.1:5000/buscar
+{
+  "id": 1
+}
