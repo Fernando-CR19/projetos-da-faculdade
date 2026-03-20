@@ -1,6 +1,6 @@
 # Projetos da Faculdade 🎓
 
-Este repositório reúne uma coleção de projetos desenvolvidos durante minha trajetória acadêmica e profissional como freelancer. Ele abrange diversas áreas, desde desenvolvimento web e mobile até sistemas embarcados e aprendizado de máquina.
+Este repositório reúne uma coleção de projetos desenvolvidos durante minha trajetória acadêmica. Ele abrange diversas áreas, desde desenvolvimento web e mobile até sistemas embarcados e aprendizado de máquina.
 
 ---
 
@@ -61,6 +61,3 @@ Servidor de suporte para o aplicativo de portfólio, gerenciando o envio de info
 ### 🚗 Road: Aluguel de Carros
 Sistema completo para locadora de veículos, incluindo cadastro de carros, gestão de reservas e controle de usuários.
 - **Tecnologias:** ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
-
----
-*Este repositório foi organizado para que estatísticas de linguagem foquem em JavaScript, TypeScript e Python.*
